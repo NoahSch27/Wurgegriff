@@ -1,5 +1,7 @@
 {
   "item.wurgegriff.magic_wand": "Magic Wand",
   "item.wurgegriff.pink_garnet": "Pink Garnet",
-  "item.wurgegriff.pink_garnet_raw": "Pink Garnet Ore"
+  "item.wurgegriff.pink_garnet_raw": "Pink Garnet Ore",
+
+  "block.wurgegriff.pink_garnet_block": "Pink Garnet Block"
 }

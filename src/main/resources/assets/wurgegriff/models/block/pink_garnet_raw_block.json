@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "wurgegriff:block/pink_garnet_block"
+    "all": "wurgegriff:block/pink_garnet_raw_block"
   }
 }

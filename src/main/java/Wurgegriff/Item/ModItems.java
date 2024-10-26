@@ -15,11 +15,20 @@ public class ModItems {
     }
 
     public static final Item MAGIC_WAND = registerItem("magic_wand", new Item(new Item.Settings()));
+    public static final Item PINK_GARNET_RAW = registerItem("pink_garnet_raw", new Item(new Item.Settings()));
+    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
 
     public static void registerModItems() {
         MinecraftMod.LOGGER.info("Registering Mod Items for " + MinecraftMod.MOD_ID);
+
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(MAGIC_WAND);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(PINK_GARNET);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(PINK_GARNET_RAW);
         });
 
     }

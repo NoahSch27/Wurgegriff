@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wurgegriff",
+  "version": "${version}",
+  "name": "Wurgegriff",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/wurgegriff/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "Wurgegriff.client.MinecraftModClient"
+    ],
+    "main": [
+      "Wurgegriff.MinecraftMod"
+    ]
+  },
+  "mixins": [
+    "wurgegriff.mixins.json",
+    {
+      "config": "wurgegriff.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

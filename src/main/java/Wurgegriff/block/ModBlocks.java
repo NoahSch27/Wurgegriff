@@ -15,22 +15,22 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block", new Block(AbstractBlock.Settings.create()
-            .strength(4.0f, 2)
+            .strength(0.5f) // Härte so einstellen, dass die Abbauzeit 1,5 Sekunden beträgt
             .requiresTool()
             .sounds(BlockSoundGroup.AMETHYST_BLOCK)
     ));
     public static final Block PINK_GARNET_RAW_BLOCK = registerBlock("pink_garnet_raw_block", new Block(AbstractBlock.Settings.create()
-            .strength(4.0f, 2)
+            .strength(0.5f) // Härte so einstellen, dass die Abbauzeit 1,5 Sekunden beträgt
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));
     public static final Block PINK_GARNET_ORE_STONE = registerBlock("pink_garnet_ore_stone", new Block(AbstractBlock.Settings.create()
-            .strength(6.0f, 3)
+            .strength(0.5f) // Härte so einstellen, dass die Abbauzeit 1,5 Sekunden beträgt
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));
     public static final Block PINK_GARNET_ORE_DEEPSLATE = registerBlock("pink_garnet_ore_deepslate", new Block(AbstractBlock.Settings.create()
-            .strength(8.0f, 3)
+            .strength(0.7f) // Härte so einstellen, dass die Abbauzeit 1,5 Sekunden beträgt
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));

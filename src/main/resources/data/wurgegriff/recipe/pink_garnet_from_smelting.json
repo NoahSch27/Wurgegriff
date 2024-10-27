@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": ",misc",
+  "cookingtime": 600,
+  "experience": 0.5,
+  "group": "pink_garnet",
+    "ingredient": {
+        "item": "wurgegriff:pink_garnet_raw"
+    },
+  "result": {
+    "count": 1,
+    "id": "wurgegriff:pink_garnet"
+  }
+}

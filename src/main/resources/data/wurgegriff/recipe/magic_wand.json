@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "wurgegriff:pink_garnet"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:emerald"
+    },
+    "W": {
+      "item": "minecraft:nether_star"
+    },
+    "V": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+
+
+
+  "pattern": [
+    "#W#",
+    "VXV",
+    "VYV"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wurgegriff:magic_wand"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": ",misc",
+  "cookingtime": 300,
+  "experience": 0.9,
+  "group": "pink_garnet",
+    "ingredient": {
+        "item": "wurgegriff:pink_garnet_raw"
+    },
+  "result": {
+    "count": 1,
+    "id": "wurgegriff:pink_garnet"
+  }
+}

@@ -4,5 +4,9 @@
   "item.wurgegriff.pink_garnet_raw": "Pink Garnet Ore",
 
   "block.wurgegriff.pink_garnet_block": "Block of Pink Garnet",
-  "block.wurgegriff.pink_garnet_raw_block": "Block of Raw Pink Garnet"
+  "block.wurgegriff.pink_garnet_raw_block": "Block of Raw Pink Garnet",
+  "block.wurgegriff.pink_garnet_ore_stone": "Stone Pink Garnet Ore",
+  "block.wurgegriff.pink_garnet_ore_deepslate": "Deepslate Pink Garnet Ore",
+
+  "itemGroup.wurgegriff.spellcraft_items": "Spellcraft"
 }

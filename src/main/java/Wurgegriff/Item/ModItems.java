@@ -20,13 +20,6 @@ public class ModItems {
 
     public static void registerModItems() {
         MinecraftMod.LOGGER.info("Registering Mod Items for " + MinecraftMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
-            entries.add(MAGIC_WAND);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-            entries.add(PINK_GARNET_RAW);
-        });
-    }
+    };
 }
+

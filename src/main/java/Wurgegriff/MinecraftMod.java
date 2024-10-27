@@ -1,5 +1,6 @@
 package Wurgegriff;
 
+import Wurgegriff.Item.ModItemGroups;
 import Wurgegriff.Item.ModItems;
 import Wurgegriff.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
@@ -12,8 +13,9 @@ public class MinecraftMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Mod initzializeing");
+        LOGGER.info("Mod initializing");
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
     }
 }
